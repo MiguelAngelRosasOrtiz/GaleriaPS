@@ -1,0 +1,146 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box; }
+
+h2 {
+  font-size: 3rem;
+  color: #000000; }
+
+h1 {
+  font-size: 4.5rem;
+  font-weight: normal; }
+
+a {
+  font-size: 2rem;
+  text-decoration: none; }
+
+*:before, *:after {
+  box-sizing: inherit; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+.contenedor {
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden; }
+
+body {
+  font-size: 16px;
+  font-family: "Roboto Condensed";
+  background-color: #393E46; }
+
+@media (max-width: 768px) {
+  body h2 {
+    font-size: 2.7rem; }
+  body h1 {
+    font-size: 3.7rem; }
+  body a {
+    font-size: 1.3rem; } }
+header {
+  background-color: #393E46;
+  width: 100%;
+  position: fixed;
+  z-index: 300;
+  height: 6rem;
+  display: flex;
+  align-items: center; }
+  header nav {
+    display: flex;
+    justify-content: center; }
+    header nav a {
+      display: inline-block;
+      text-decoration: none;
+      color: #EEEEEE;
+      margin: 0 1.5rem; }
+      header nav a:hover {
+        color: #00ADB5; }
+
+main {
+  padding-top: 6rem;
+  position: relative;
+  height: 40rem;
+  background-image: url(../img/starWars14.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  main .mascara {
+    position: absolute;
+    background-color: #080808e7;
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    z-index: 150;
+    margin-top: -6rem; }
+    main .mascara .contenedor {
+      display: flex;
+      align-items: center;
+      height: 100%; }
+      main .mascara .contenedor h1 {
+        width: 80%;
+        font-size: 4.5rem;
+        color: #EEEEEE; }
+
+@media (max-width: 650px) {
+  main {
+    height: 25rem;
+    background-image: url(../img/starWars15.png); }
+    main .mascara .contenedor {
+      width: 100%; }
+      main .mascara .contenedor h1 {
+        text-align: center;
+        font-size: 2.4rem; } }
+section.juegos {
+  padding-top: 2rem;
+  background-color: #EEEEEE; }
+  section.juegos h2 {
+    text-align: center; }
+  section.juegos .cajaJuegos h2 {
+    text-align: left;
+    margin: 2rem 0; }
+  section.juegos .cajaJuegos:nth-child(odd) {
+    background-color: #393E46; }
+    section.juegos .cajaJuegos:nth-child(odd) h2 {
+      color: #AAD8D3; }
+  section.juegos .cajaJuegos .juegos {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+    section.juegos .cajaJuegos .juegos .juego {
+      width: 24%;
+      margin-bottom: 1.5rem; }
+      section.juegos .cajaJuegos .juegos .juego img {
+        width: 100%;
+        vertical-align: top;
+        border-radius: 0.7rem;
+        -webkit-box-shadow: 0px 7px 9px -2px rgba(0, 0, 0, 0.65);
+        -moz-box-shadow: 0px 7px 9px -2px rgba(0, 0, 0, 0.65);
+        box-shadow: 0px 7px 9px -2px rgba(0, 0, 0, 0.65); }
+
+@media (max-width: 768px) {
+  section.juegos .cajaJuegos .juegos .juego {
+    width: 33%; } }
+@media (max-width: 500px) {
+  section.juegos .cajaJuegos .juegos .juego {
+    width: 49%; } }
+section.sigueme {
+  background-color: #AAD8D3;
+  text-align: center;
+  padding: 3rem; }
+  section.sigueme a {
+    font-weight: lighter;
+    color: #393E46;
+    font-size: 5rem; }
+
+@media (max-width: 650px) {
+  section.sigueme a {
+    font-size: 2.5rem;
+    margin-top: 1.5rem; } }
+footer {
+  padding: 1.5rem;
+  text-align: center;
+  font-size: 2rem;
+  color: #EEEEEE; }
+
+/*# sourceMappingURL=estilos.css.map */
