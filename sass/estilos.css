@@ -119,16 +119,16 @@ section.juegos {
         box-shadow: 0px 7px 9px -2px rgba(0, 0, 0, 0.65);
         transition: transform 0.5s ease; }
         section.juegos .cajaJuegos .juegos .juego img:hover {
-          transform: scale(1.9);
-          z-index: 300;
-          overflow: visible; }
+          transform: scale(1.9); }
 
 @media (max-width: 768px) {
   section.juegos .cajaJuegos .juegos .juego {
     width: 33%; } }
 @media (max-width: 500px) {
   section.juegos .cajaJuegos .juegos .juego {
-    width: 49%; } }
+    width: 49%; }
+    section.juegos .cajaJuegos .juegos .juego img:hover {
+      transform: scale(1.4); } }
 section.sigueme {
   background-color: #AAD8D3;
   text-align: center;
